@@ -1,0 +1,25 @@
+{
+  "name": "desafio-monnet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:report": "npx playwright show-report",
+    "test:api": "npx playwright test --grep @API",
+    "test:api-part-1": "npx playwright test --grep @API-Part-1",
+    "test:api-part-2": "npx playwright test --grep @API-Part-2",
+    "test:web": "npx playwright test --grep @WebTest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "xlsx": "^0.18.5"
+  }
+}
